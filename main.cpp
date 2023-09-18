@@ -25,7 +25,8 @@ int main()
   cout << endl;
   q1.print();
   cout << endl;
-  r1.print();
+
 
   cin.get();
+  return 0;
 }
