@@ -26,7 +26,6 @@ int main()
   q1.print();
   cout << endl;
 
-
   cin.get();
   return 0;
 }

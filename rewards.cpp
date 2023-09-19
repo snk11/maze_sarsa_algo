@@ -23,9 +23,7 @@ void rewards::print()
       nb1 = i % 9;
       nb2 = i % 8 - i / 9;
 
-
       cout << r[i] << " ";
-
 
       if ( nb2 == 0 && nb1 != 0)
         cout<< endl;
