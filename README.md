@@ -2,8 +2,8 @@
 
 This is a program solving a simple maze by using SARSA algorithm with an Epsilon-greedy policy.<br />
 There is a small terminal-based animation to show what it is going on.<br />
-The application has been designed for windows system, but to match to unix system you only have to change 1 ligne <br />
- of code : in the file functions.cpp in line186 replace system("cls"); by sytem("clear");<br />
+The application has been designed for windows system, but to match to unix system you only have to change 1 ligne
+ of code : in the file functions.cpp in line186 replace system("cls"); by sytem("clear");
  
 
 
@@ -30,12 +30,11 @@ X | 46 | X | X | 49 | 50 | 51 | X | X |
 72 | X | X | 75 |76 | 77 | 78 | 79 | 80 |
 
 The goal is to start from the state 0 and finish to the state 80.<br />
-The agent can not be in  a wall state. However in a regular state the agent have the possibility to <br />
+The agent can not be in  a wall state. However in a regular state the agent have the possibility to
 choose among  4 actions (at maximum, depending on there is a wall or not, next to the current state): LEFT / UP  /RIGHT / DOWN.<br />
 Some rewards (positive or negative) have been assigned in some critical states (see in the main file).<br />
 And after some episodes, we can end up with a path solution implemented with the Q-table of the agent:<br />
-for a state q[i] the first value corresponds to LEFT, the second to UP, the third to RIGHT, the last to DOWN (the highest <br />
-value is the best action to choose).<br />
+for a state q[i] the first value corresponds to LEFT, the second to UP, the third to RIGHT, the last to DOWN (the highest value is the best action to choose).<br />
 
  
 
