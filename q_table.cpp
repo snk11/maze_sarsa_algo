@@ -15,7 +15,7 @@ void q_table::print()
   int m = q.size();
   int n = q[0].size();
 
-  cout<< "qtable:";
+  cout<< "Q-table:";
   cout<< endl;
   for(int i = 0; i < m; i++)
   {
