@@ -15,7 +15,7 @@ make<br />
 
 # HOW IT WORKS
 
-The board is composed by a 9x9=81 possible states, but we can remove the wall cases.<br />
+The board is composed by 9x9=81 possible states, but we can remove the wall cases.<br />
 So it can be represented as like that:<br />
 
 0 | 1 | 2 | 3 | X | 5 | 6 | 7 | X |
