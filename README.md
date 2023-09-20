@@ -3,7 +3,7 @@
 This is a program solving a simple maze by using SARSA algorithm with an Epsilon-greedy policy.<br />
 There is a small terminal-based animation to show what it is going on.<br />
 The application has been designed for windows system, but to match to unix system you only have to change 1 ligne
- of code : in the file functions.cpp in line186 replace system("cls"); by sytem("clear");
+ of code : in the file functions.cpp in line186 replace system("cls"); by system("clear");
  
 
 
