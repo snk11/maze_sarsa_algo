@@ -6,7 +6,6 @@ The application has been designed for windows system, but to match to unix syste
  of code : in the file functions.cpp in line186 replace system("cls"); by system("clear");
  
 
-
 # MAKEFILE
 
 to make the exe file called maze_sarsa:<br />
@@ -28,6 +27,7 @@ X | 46 | X | X | 49 | 50 | 51 | X | X |
 54 | 55 | 56 | X | 58 | X | X | X | X |
 63 | X | 65 | X | 67 | X | X | X | X |
 72 | X | X | 75 |76 | 77 | 78 | 79 | 80 |
+
 
 The goal is to start from the state 0 and finish to the state 80.<br />
 The agent can not be in  a wall state. However in a regular state the agent have the possibility to
