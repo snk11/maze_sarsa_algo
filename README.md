@@ -29,6 +29,7 @@ X | 46 | X | X | 49 | 50 | 51 | X | X |
 72 | X | X | 75 |76 | 77 | 78 | 79 | 80 |
 
 
+
 The goal is to start from the state 0 and finish to the state 80.<br />
 The agent can not be in  a wall state. However in a regular state the agent have the possibility to
 choose among  4 actions (at maximum, depending on there is a wall or not, next to the current state): LEFT / UP  /RIGHT / DOWN.<br />
